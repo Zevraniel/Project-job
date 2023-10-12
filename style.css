@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 50vh;
+    background-image: url(img/PlbVW3.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+    
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    margin-top: 25%;
+    
+}
+
+.container h1{
+    color: white;
+    font-family: 'Matrix', sans-serif;
+    font-size: 50px;    
+    
+    
+
+}
+.image-links {
+    display: flex; 
+    justify-content: center; 
+    
+  }
+
+.red{
+    margin: 0px 20px;
+}
+.blue{
+    margin: 0px 20px;
+}
