@@ -1,0 +1,18 @@
+body{
+    background-image: url(img/windows.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    
+}
+
+.icons img{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+

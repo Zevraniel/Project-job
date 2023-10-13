@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* hlavní div , obsahující všechny elementy */
+.container{
+    width: 100%;
+    height: 100vh;
+    background:rgba(206, 202, 202, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* div obsahují kalkulačku */
+.calculator{
+    background-color: rgba(36, 36, 35, 0.731);
+    padding:15px;
+    border-radius: 5%;
+    border: 2px solid white;
+
+}
+/* div obsahující tlačítka kalkulačky */
+.calculator form input{
+    width: 50px;
+    height: 50px;
+    outline:0 ;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px rgba(234, 234, 234, 0.639);
+    outline: 0;
+    border-radius: 15%;
+    cursor: pointer;
+    border: 0.2px solid white;
+    margin:4px
+}
+/* textové okno, panel kalkulačky */
+form .window{
+    display: flex;
+    justify-content:flex-end ;
+    margin: 15px 0;
+    
+}
+
+form .window input{
+    text-align: right;
+    flex:1;
+    border-radius: 0;
+    border: 0;
+    box-shadow: none
+}
+
+/* tlačítko rovná se */
+form input.submit{
+    width: 104px;
+
+}

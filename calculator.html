@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+<div class="container">
+    <div class="calculator">
+        <form id="buttons">
+            <div class="window">
+                <input type="text" name="window">
+            </div>
+            <div>
+                <input type="button" value="AC" onclick="window.value =` `">
+                <input type="button" value="DE" onclick="window.value =window.value.slice(0,-1)">
+                <input type="button" value="." onclick="window.value +=``">
+                <input type="button" value="/" onclick="window.value +=`/`">
+            </div>
+            <div>
+                <input type="button" value="7" onclick="window.value +=`7`">
+                <input type="button" value="8" onclick="window.value +=`8`">
+                <input type="button" value="9" onclick="window.value +=`9`">
+                <input type="button" value="*" onclick="window.value +=`*`">
+            </div>
+            <div>
+                <input type="button" value="4" onclick="window.value +=`4`">
+                <input type="button" value="5" onclick="window.value +=`5`">
+                <input type="button" value="6" onclick="window.value +=`6`">
+                <input type="button" value="-" onclick="window.value +=`-`">
+            </div>
+            <div>
+                <input type="button" value="1" onclick="window.value +=`1`">
+                <input type="button" value="2" onclick="window.value +=`2`">
+                <input type="button" value="3" onclick="window.value +=`3`">
+                <input type="button" value="+" onclick="window.value +=`+`">
+            </div>
+            <div>
+                <input type="button" value="00" onclick="window.value +=`00`">
+                <input type="button" value="0" onclick="window.value +=`0`">
+                <input type="button" value="=" onclick="window.value = eval(window.value)" class="submit">
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
