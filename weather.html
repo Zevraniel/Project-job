@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="window">
+        <div class="search">
+            <input type="text" placeholder="zadej město">
+            <button><img src="imgWeather/search.png" alt=""></button>
+        </div>
+        <div class="weather">
+            <img src="imgWeather/rain.png" class="icon">
+            <h1 class="temp">22</h1>
+            <h2 class="city">Praha</h2>
+            <div class="detail">
+                <div class="collum">
+                    <img src="imgWeather/humidity.png" alt="">
+                    <div><p class="hum">50%</p></div>
+                    <p>Vlhokst</p>
+                </div>
+                <div class="collum">
+                    <img src="imgWeather/wind.png" alt="">
+                    <div><p class="wind">50km/h</p></div>
+                    <p>Rychlost větru </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="weather.js"></script>
+</body>
+</html>

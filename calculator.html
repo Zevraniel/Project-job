@@ -13,6 +13,7 @@
             <div class="window">
                 <input type="text" name="window">
             </div>
+            <!-- každý div obsahují inputy, je jeden řádek kalkulačky -->
             <div>
                 <input type="button" value="AC" onclick="window.value =` `">
                 <input type="button" value="DE" onclick="window.value =window.value.slice(0,-1)">
@@ -40,6 +41,7 @@
             <div>
                 <input type="button" value="00" onclick="window.value +=`00`">
                 <input type="button" value="0" onclick="window.value +=`0`">
+                <!-- funkce eval () provede matematickou operaci a vrátí zpět do window -->
                 <input type="button" value="=" onclick="window.value = eval(window.value)" class="submit">
             </div>
         </form>
